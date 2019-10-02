@@ -1,4 +1,4 @@
-# gatsby-plugin-react-head
+# @canrau/gatsby-plugin-react-head
 
 This plugin sets up [react-head](https://github.com/tizmagik/react-head) with server-rendering for you.
 
@@ -7,13 +7,15 @@ This plugin sets up [react-head](https://github.com/tizmagik/react-head) with se
 ## Install
 
 ```
-npm install --save react-head@next gatsby-plugin-react-head
+npm install --save react-head@next @canrau/gatsby-plugin-react-head
 ```
 
 ### Note
 
-`gatsby-plugin-react-head` **depends** on react-head!  
+`@canrau/gatsby-plugin-react-head` **depends** on react-head!  
 To use the **new whitelist** feature you have to specifically install **react-head@next** as shown above, the whitelist option hasn't been merged into the main release so far as it's still a proof of concept.
+
+The un-namespaced version [gatsby-plugin-react-head](https://github.com/bejamas/gatsby-plugin-react-head) **doesn't** support the **whitelist** option.
 
 ## Configuration
 
@@ -23,7 +25,7 @@ Add the plugin to your `gatsby-config.js`.
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-react-head`,
+      resolve: `@canrau/gatsby-plugin-react-head`,
       // optional options
       options: {
         // an array of whitelisted tags to disable `[data-rh]` attribute for them
