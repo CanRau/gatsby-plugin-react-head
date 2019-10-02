@@ -43,17 +43,15 @@ module.exports = {
 
 ```
 import * as React from 'react';
-import { HeadProvider, Title, Link, Meta } from 'react-head';
+import { Title, Link, Meta } from 'react-head';
 
 const App = () => (
-  <HeadProvider>
-    <div className="Home">
-      <Title>GaiAma.org</Title>
-      <Link rel="canonical" content="http://www.gaiama.org/" />
-      <Meta name="description" content="Making rainforests cool againa" />
-      // ...
-    </div>
-  </HeadProvider>
+  <>
+    <Title>GaiAma.org</Title>
+    <Link rel="canonical" content="http://www.gaiama.org/" />
+    <Meta name="description" content="Making rainforests cool againa" />
+    // ...
+  </>
 );
 ```
 
