@@ -51,7 +51,7 @@ const App = () => (
   <>
     <Title>GaiAma.org</Title>
     <Link rel="canonical" content="http://www.gaiama.org/" />
-    <Meta name="description" content="Making rainforests cool againa" />
+    <Meta name="description" content="Protecting Amazonian rainforest in Peru" />
     // ...
   </>
 );
