@@ -1,7 +1,7 @@
 {
   "name": "@canrau/gatsby-plugin-react-head",
   "description": "Gatsby plugin to setup up react-head and make it SSR ready",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "author": "Can Rau <cansrau@gmail.com> (https://www.canrau.com)",
   "main": "index.js",
