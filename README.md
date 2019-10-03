@@ -1,5 +1,8 @@
 # @canrau/gatsby-plugin-react-head
 
+## WARNING: The `whitelist` option introduced in `react-head@next` is not working properly at least not using the below mentioned whitelist.
+### Please check my [PR#84](https://github.com/tizmagik/react-head/pull/84#issuecomment-537728374) over at react-head if you're interested in the details.
+
 This plugin sets up [react-head](https://github.com/tizmagik/react-head) with server-rendering for you.
 
 [More about thread-safe meta tag management with react-head](https://jeremygayed.com/making-head-tag-management-thread-safe-with-react-head-323654170b45)
